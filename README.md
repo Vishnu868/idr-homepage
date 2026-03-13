@@ -23,4 +23,3 @@ The IDR logo uses a geometric cube to represent structure, resilience and layere
 • Accessible colour palette (orange, white, black)
 • Vanilla HTML/CSS/JS (no frameworks)
 
-* [ ]
