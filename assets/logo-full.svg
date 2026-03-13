@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <defs>
+    <linearGradient id="fl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8650A"/>
+      <stop offset="100%" stop-color="#C45000"/>
+    </linearGradient>
+    <linearGradient id="fr" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF8C33"/>
+      <stop offset="100%" stop-color="#E8650A"/>
+    </linearGradient>
+    <linearGradient id="ft" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF9F4D"/>
+      <stop offset="100%" stop-color="#FF8C33"/>
+    </linearGradient>
+  </defs>
+  <!-- Cube icon scaled to 80x80 centered vertically -->
+  <g transform="translate(10, 10)">
+    <!-- Top face -->
+    <polygon points="50,8 90,30 50,52 10,30" fill="url(#ft)"/>
+    <!-- Left face -->
+    <polygon points="10,30 50,52 50,92 10,70" fill="url(#fl)"/>
+    <!-- Right face -->
+    <polygon points="90,30 50,52 50,92 90,70" fill="url(#fr)"/>
+    <!-- Inner cutout -->
+    <polygon points="50,32 66,42 50,52" fill="rgba(0,0,0,0.25)"/>
+    <polygon points="50,32 34,42 50,52" fill="rgba(0,0,0,0.35)"/>
+    <!-- Shield accent -->
+    <polygon points="50,18 60,24 50,33 40,24" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.4"/>
+  </g>
+  <!-- Text -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap');
+  </style>
+  <text x="120" y="52" font-family="'DM Sans', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#1A1A1A" letter-spacing="0.5">Institute of Digital Risk</text>
+  <text x="120" y="78" font-family="'DM Sans', Helvetica, Arial, sans-serif" font-weight="500" font-size="13" fill="#E8650A" letter-spacing="3">IDR</text>
+  <line x1="152" y1="72" x2="580" y2="72" stroke="#E8E8E8" stroke-width="0.5"/>
+</svg>
